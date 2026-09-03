@@ -1,5 +1,7 @@
 # SimpleLocalize OTA SDK for Android
 
+[![CI](https://github.com/simplelocalize/simplelocalize-ota-sdk-android/actions/workflows/ci.yml/badge.svg)](https://github.com/simplelocalize/simplelocalize-ota-sdk-android/actions/workflows/ci.yml)
+
 Over-the-air translations for Android apps. Translations are fetched at runtime from
 [SimpleLocalize Translation Hosting](https://simplelocalize.io) (`cdn.simplelocalize.io`), so
 fixing a typo or adding a language is a **publish**, not a Play Store release.
@@ -134,6 +136,6 @@ about an hour; point debug builds at `_latest` to iterate faster.
 ## Development
 
 ```bash
-gradle :simplelocalize-ota:testDebugUnitTest   # JVM tests, incl. a real HTTP server with ETag revalidation
-gradle :simplelocalize-ota:assembleRelease
+./gradlew :simplelocalize-ota:testDebugUnitTest   # JVM tests, incl. a real HTTP server with ETag revalidation
+./gradlew :simplelocalize-ota:assembleRelease
 ```
