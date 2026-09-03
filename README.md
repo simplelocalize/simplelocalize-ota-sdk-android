@@ -131,6 +131,10 @@ about an hour; point debug builds at `_latest` to iterate faster.
 
 - Plurals (`getQuantityString`) are not supported yet.
 
+## Example app
+
+A runnable app lives in [`sample/`](sample) - `./gradlew :sample:installDebug`.
+
 ## Development
 
 ```bash

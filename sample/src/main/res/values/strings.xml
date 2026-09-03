@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Resource entry names are the translation keys in SimpleLocalize. -->
+    <string name="app_name">SimpleLocalize OTA</string>
+    <string name="home_title">Translations without a release</string>
+    <string name="home_subtitle">These strings come from Translation Hosting. Publish a change and it lands here.</string>
+    <string name="home_greeting">Hello! This text is bundled in the app and replaced over the air.</string>
+    <string name="home_cta">Refresh translations</string>
+    <string name="home_language">Language</string>
+</resources>

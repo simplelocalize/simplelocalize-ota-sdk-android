@@ -15,3 +15,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "simplelocalize-ota-android"
 include(":simplelocalize-ota")
+include(":sample")
