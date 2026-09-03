@@ -19,7 +19,7 @@ It works out of the box with the strings bundled in `res/values/strings.xml`.
 1. Put your project token (Settings -> Credentials) in `SampleApplication.kt`.
 2. In SimpleLocalize create the keys `home_title`, `home_subtitle`, `home_greeting`,
    `home_cta`, `home_language` - translation keys must match the resource entry names.
-3. Publish to `_production` and tap **Refresh translations** in the app.
+3. Publish to `_latest` and tap **Refresh translations** in the app.
 
 ## What it shows
 

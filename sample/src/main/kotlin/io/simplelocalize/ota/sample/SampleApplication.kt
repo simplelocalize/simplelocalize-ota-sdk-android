@@ -14,7 +14,7 @@ class SampleApplication : Application() {
       this,
       SimpleLocalizeConfiguration(
         projectToken = PROJECT_TOKEN,
-        environment = "_production",
+        environment = "_latest",
         fallbackLanguage = "en"
       )
     )
