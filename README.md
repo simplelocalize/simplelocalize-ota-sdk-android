@@ -15,11 +15,24 @@ fixing a typo or adding a language is a **publish**, not a Play Store release.
 
 ## Installation
 
+Not published to a Maven repository yet, so consume it as a Gradle module:
+
 ```kotlin
+// settings.gradle.kts
+include(":simplelocalize-ota")
+project(":simplelocalize-ota").projectDir =
+  file("../simplelocalize-ota-sdk-android/simplelocalize-ota")
+```
+
+```kotlin
+// app/build.gradle.kts
 dependencies {
-  implementation("io.simplelocalize:simplelocalize-ota:0.1.0")
+  implementation(project(":simplelocalize-ota"))
 }
 ```
+
+If your root build file does not declare the Android library plugin yet, add
+`id("com.android.library") version "<your AGP version>" apply false` next to the application plugin.
 
 ## Quick start
 
