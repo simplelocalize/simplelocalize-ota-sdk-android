@@ -4,6 +4,8 @@ Minimal Android app showing over-the-air translations end to end.
 
 ## Run
 
+From the repository root (that is where the Gradle wrapper lives):
+
 ```bash
 ./gradlew :sample:installDebug
 ```
