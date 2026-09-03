@@ -127,11 +127,9 @@ both are supported and nested payloads are flattened to dot separated keys.
 `_production` is served with `Cache-Control: max-age=3600`, so a publication reaches users within
 about an hour; point debug builds at `_latest` to iterate faster.
 
-## Not covered (on purpose)
+## Roadmap
 
-- Plurals (`getQuantityString`) and string arrays are not overridden - they keep using the
-  bundled resources.
-- No writes: the SDK never sends anything to SimpleLocalize; the CDN is public and read-only.
+- Plurals (`getQuantityString`) are not supported yet.
 
 ## Development
 
